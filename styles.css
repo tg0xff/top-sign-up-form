@@ -8,10 +8,10 @@ body {
   display: flex;
 }
 
-body > div:first-child {
+.sidebar {
   flex: 1;
 }
 
-body > div:last-child {
+main {
   flex: 2;
 }

@@ -68,3 +68,7 @@ main > * {
 form .fomo {
   color: #333;
 }
+
+main > .fomo:first-child {
+  margin-top: 190px;
+}

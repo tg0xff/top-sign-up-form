@@ -57,3 +57,14 @@ main > * {
   text-align: center;
   font-size: 0.8rem;
 }
+
+.fomo {
+  color: #000;
+  font-weight: 800;
+  font-size: 1.3rem;
+  max-width: 60ch;
+}
+
+form .fomo {
+  color: #333;
+}

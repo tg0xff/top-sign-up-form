@@ -32,6 +32,10 @@ main {
   flex: 5;
 }
 
+main > * {
+  padding-left: 45px;
+}
+
 .logo {
   background-color: rgb(0, 0, 0, 0.50);
   font-family: Norse;

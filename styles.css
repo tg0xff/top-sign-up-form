@@ -109,7 +109,7 @@ input {
   font-size: 0.9rem;
   font-family: inherit;
   min-width: 240px;
-  padding: 4px;
+  padding: 4px 10px;
   outline: none;
   border: 1px solid #eee;
   border-radius: 5px;

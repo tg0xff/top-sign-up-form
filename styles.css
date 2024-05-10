@@ -116,11 +116,11 @@ input {
 }
 
 input:invalid {
-  border: 1px solid #990000;
+  border-color: #bb0000;
 }
 
 input:focus {
-  border: 1px solid #0022ee;
+  border-color: #0022ee;
   box-shadow: 2px 2px 7px #bbb;
 }
 

@@ -10,11 +10,11 @@ body {
 }
 
 .sidebar {
-  flex: 1;
+  flex: 3;
 }
 
 main {
-  flex: 2;
+  flex: 5;
 }
 
 .logo {

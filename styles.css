@@ -51,4 +51,5 @@ main {
 .sidebar > p {
   margin-top: auto;
   text-align: center;
+  font-size: 0.8rem;
 }

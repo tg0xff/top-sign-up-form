@@ -122,3 +122,21 @@ input:focus {
   border: 1px solid #0022ee;
   box-shadow: 2px 2px 7px #bbb;
 }
+
+button {
+  margin: 30px 0 15px 45px;
+  padding: 14px 50px;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #fff;
+  background-color: #596d48;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 1px 3px 6px #bbb;
+}
+
+main a {
+  color: #596d48;
+  text-decoration: none;
+  font-weight: 800;
+}

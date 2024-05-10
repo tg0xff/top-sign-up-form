@@ -1,6 +1,6 @@
 @font-face {
   font-family: Norse;
-  src: url('assets/Norse-Bold.woff2') format('woff2');
+  src: url("assets/Norse-Bold.woff2") format("woff2");
 }
 
 *,
@@ -16,7 +16,8 @@ body {
 }
 
 .sidebar {
-  background: center / auto 100% url('assets/halie-west-25xggax4bSA-unsplash.jpg');
+  background: center / auto 100%
+    url("assets/halie-west-25xggax4bSA-unsplash.jpg");
   color: #fff;
   flex: 3;
   min-height: 100vh;
@@ -30,6 +31,7 @@ body {
 
 main {
   flex: 5;
+  background-color: #f9fafb;
 }
 
 main > * {
@@ -37,7 +39,7 @@ main > * {
 }
 
 .logo {
-  background-color: rgb(0, 0, 0, 0.50);
+  background-color: rgb(0, 0, 0, 0.5);
   font-family: Norse;
   font-size: 5.5rem;
   margin-top: 200px;
@@ -67,12 +69,56 @@ main > * {
 
 form .fomo {
   color: #333;
+  margin-top: 0;
 }
 
 main > .fomo:first-child {
   margin-top: 150px;
 }
 
-.form-card {
+form {
   margin-top: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #fff;
+  box-shadow: 0px 5px 8px #ccc;
+}
+
+form > div {
+  display: flex;
+  column-gap: 60px;
+  flex-wrap: wrap;
+}
+
+form > div > div {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  color: #555;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+input {
+  font-size: 0.9rem;
+  font-family: inherit;
+  min-width: 240px;
+  padding: 4px;
+  outline: none;
+  border: 1px solid #eee;
+  border-radius: 5px;
+}
+
+input:invalid {
+  border: 1px solid #990000;
+}
+
+input:focus {
+  border: 1px solid #0022ee;
+  box-shadow: 2px 2px 7px #bbb;
 }

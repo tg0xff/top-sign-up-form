@@ -141,3 +141,13 @@ main a {
   text-decoration: none;
   font-weight: 800;
 }
+
+output:not(.no-match) {
+  display: none;
+}
+
+output.no-match {
+  display: block;
+  font-size: 0.7rem;
+  color: #990000;
+}

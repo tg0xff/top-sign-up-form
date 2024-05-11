@@ -17,7 +17,7 @@ body {
 }
 
 .sidebar {
-  background: center / auto 100%
+  background: center / auto 100% space
     url("assets/halie-west-25xggax4bSA-unsplash.jpg");
   color: #fff;
   flex: 3;
